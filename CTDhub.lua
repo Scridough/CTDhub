@@ -45,3 +45,7 @@ end)
     OtherSection:NewButton("Infinity Yield", "?Admin?", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
+
+OtherSection:NewButton("Btools", "BREAK", function()
+    loadstring(game:HttpGet('https://pastebin.com/29Xti26t'))()
+end)

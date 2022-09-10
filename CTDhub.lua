@@ -45,10 +45,3 @@ end)
     OtherSection:NewButton("Infinity Yield", "?Admin?", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
-
-OtherSection:NewButton("Bypassed Fly", "bird mode", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua"))() 
-
-    Fly(true)
-end)
-end
